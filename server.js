@@ -10,7 +10,6 @@ app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 import fs from 'fs'
-import os from 'os'
 import {VisionPredict} from './AutoML'
 import Papa from 'papaparse'
 
